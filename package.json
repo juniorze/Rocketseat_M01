@@ -5,7 +5,13 @@
   "repository": "git@github.com:juniorze/Rocketseat_M01.git",
   "author": "juniorze <junior.ze.jw@gmail.com> (https://github.com/juniorze/)",
   "license": "MIT",
+  "scripts": {
+    "dev": "nodemon index.js"
+  },
   "dependencies": {
     "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1"
   }
 }
